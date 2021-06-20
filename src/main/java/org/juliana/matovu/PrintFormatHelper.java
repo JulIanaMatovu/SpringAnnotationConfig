@@ -9,14 +9,11 @@ import javax.inject.Named;
 public class PrintFormatHelper {
 
 
-    public String embellish(String simpleString){
-        return "Hello, " + simpleString +"\nIf this is your first time here, please sign up!!!";
+    public String embellish(String simpleString) {
+        return "Hello, " + simpleString + "\nIf this is your first time here, please sign up!!!";
     }
 
-    public String test(String simpleString){
-        return "Hello, " + simpleString +"\nIf this is your first time here, please sign up!!!";
-    } 
-
-
-
+    public String test(String simpleString) {
+        return "Hello there, " + simpleString + "\nIf this is your first time here, please sign up!!!";
+    }
 }
