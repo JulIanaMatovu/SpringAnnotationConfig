@@ -13,6 +13,10 @@ public class PrintFormatHelper {
         return "Hello, " + simpleString +"\nIf this is your first time here, please sign up!!!";
     }
 
+    public String test(String simpleString){
+        return "Hello, " + simpleString +"\nIf this is your first time here, please sign up!!!";
+    } 
+
 
 
 }
